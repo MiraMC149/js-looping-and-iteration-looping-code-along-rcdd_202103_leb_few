@@ -5,8 +5,11 @@ function writeCards(name,event)
   {
    console.log('Thank you, ${name[i]} for the wonderful'  +event+  'gift');
  }
-return (["Ada", "Brendan", "Ali"], "birthday");
+return name;
 }
+const name = ["Ada", "Brendan", "Ali"];
+const birthday;
+writeCards(name,birthday);
 function countDown(nb){
   while(i>=0){
     console.log(nb);
