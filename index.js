@@ -5,6 +5,7 @@ function writeCards(name,event)
   {
    console.log('Thank you, ${name[i]} for the wonderful'  +event+  'gift');
  }
+ return name;
 }
 writeCards(["Ada", "Brendan", "Ali"], "birthday");
 function countDown(nb){
