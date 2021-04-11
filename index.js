@@ -1,13 +1,11 @@
 // Code your solutions in this file
-const name = ["Ada","Brendan","Ali"];
-const birthday;
-const nb=10;
-function writeCards(name,birthday)
+function writeCards(name,event)
 {
   for(let i=0;i<name.length;i++)
   {
-   console.log("Thank you,${name[i]} for the wonderful" +birthday+ "gift");
+   console.log('Thank you, ${name[i]} for the wonderful'  +event+  'gift');
  }
+return (["Ada", "Brendan", "Ali"], "birthday");
 }
 function countDown(nb){
   while(i>=0){
@@ -15,3 +13,4 @@ function countDown(nb){
     i--
   }
 }
+countDown(10);
